@@ -1,0 +1,77 @@
+graph TD;
+    A[Провайдер Интернета] -->|WAN| B[Маршрутизатор (192.168.1.1)];
+    B -->|Ethernet| C[Коммутатор];
+
+    subgraph "Рабочие станции"
+        A1[PC1] -->|Ethernet| C;
+        A2[PC2] -->|Ethernet| C;
+        A3[PC3] -->|Ethernet| C;
+        A4[PC4] -->|Ethernet| C;
+        A5[PC5] -->|Ethernet| C;
+        A6[PC6] -->|Ethernet| C;
+        A7[PC7] -->|Ethernet| C;
+        A8[PC8] -->|Ethernet| C;
+        A9[PC9] -->|Ethernet| C;
+        A10[PC10] -->|Ethernet| C;
+        A11[PC11] -->|Ethernet| C;
+        A12[PC12] -->|Ethernet| C;
+        A13[PC13] -->|Ethernet| C;
+        A14[PC14] -->|Ethernet| C;
+        A15[PC15] -->|Ethernet| C;
+        A16[PC16] -->|Ethernet| C;
+        A17[PC17] -->|Ethernet| C;
+        A18[PC18] -->|Ethernet| C;
+        A19[PC19] -->|Ethernet| C;
+        A20[PC20] -->|Ethernet| C;
+        A21[PC21] -->|Ethernet| C;
+        A22[PC22] -->|Ethernet| C;
+        A23[PC23] -->|Ethernet| C;
+        A24[PC24] -->|Ethernet| C;
+        A25[PC25] -->|Ethernet| C;
+        A26[PC26] -->|Ethernet| C;
+        A27[PC27] -->|Ethernet| C;
+        A28[PC28] -->|Ethernet| C;
+        A29[PC29] -->|Ethernet| C;
+        A30[PC30] -->|Ethernet| C;
+        A31[PC31] -->|Ethernet| C;
+        A32[PC32] -->|Ethernet| C;
+        A33[PC33] -->|Ethernet| C;
+        A34[PC34] -->|Ethernet| C;
+        A35[PC35] -->|Ethernet| C;
+        A36[PC36] -->|Ethernet| C;
+        A37[PC37] -->|Ethernet| C;
+        A38[PC38] -->|Ethernet| C;
+        A39[PC39] -->|Ethernet| C;
+        A40[PC40] -->|Ethernet| C;
+        A41[PC41] -->|Ethernet| C;
+        A42[PC42] -->|Ethernet| C;
+        A43[PC43] -->|Ethernet| C;
+        A44[PC44] -->|Ethernet| C;
+        A45[PC45] -->|Ethernet| C;
+        A46[PC46] -->|Ethernet| C;
+        A47[PC47] -->|Ethernet| C;
+        A48[PC48] -->|Ethernet| C;
+        A49[PC49] -->|Ethernet| C;
+        A50[PC50] -->|Ethernet| C;
+    end
+
+    subgraph "Принтеры"
+        P1[Принтер1] -->|Ethernet| C;
+        P2[Принтер2] -->|Ethernet| C;
+        P3[Принтер3] -->|Ethernet| C;
+        P4[Принтер4] -->|Ethernet| C;
+        P5[Принтер5] -->|Ethernet| C;
+    end
+
+    subgraph "Серверы"
+        S1[Сервер Файлов] -->|Ethernet| C;
+        S2[Сервер Приложений] -->|Ethernet| C;
+        S3[Почтовый Сервер] -->|Ethernet| C;
+    end
+
+    subgraph "Точки доступа"
+        AP1[Точка доступа 1] -->|Ethernet| C;
+        AP2[Точка доступа 2] -->|Ethernet| C;
+    end
+
+
